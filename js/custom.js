@@ -1,0 +1,1 @@
+function getYear(){var e=(new Date).getFullYear();document.querySelector("#displayYear").innerHTML=e}getYear();
