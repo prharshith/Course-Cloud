@@ -1,4 +1,4 @@
-# © Students Notes Website TEAM AMH 2020-2023
+# © Course Cloud&trade; TEAM AMH 2020-2023
 
 © ALL RIGHTS RESERVED BY TEAM AMH 2020-2023. 
 
