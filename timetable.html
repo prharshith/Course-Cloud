@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Cloud&trade; - Time Table</title>
+</head>
+<body>
+    
+    <script>
+
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+
+    </script>
+
+<style>
+    ::-moz-selection{
+      color: white;
+      background: #44b89d;
+    }
+  
+    ::selection {
+      color: white;
+      background:  #44b89d;
+    }
+    </style>
+
+<center><h5 style="color:red;">This Time Table Page Was Last Updated on <b><i>08/08/2022</i></b></h5></center>
+
+        <center><h1>TIME TABLE IT-A 4TH YEAR</h1></center>
+        <br>
+       <center>
+    <img src="images/42.webp" width="50%" height="40%" class="responsive">
+    <style>
+.responsive {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+    </style>
+    </center>
+       <br><br>
+        <!--<table border="5" cellspacing="1" align="center">
+            <caption>Timetable</caption>
+            <tr>
+                <td align="center" height="50"
+                    width="100"><br>
+                    <b>Day/Period</b></br>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>I<br>9:10-10:00</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>II<br>10:00-10:50</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b><br>10:50-11:00</b>
+                <td align="center" height="50"
+                    width="100">
+                    <b>III<br>11:00-11:50</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>IV<BR>11:50-12:40</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b><br>12:40-1:30</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>V<br>1:30-2:20</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>VI<br>2:20-3:10</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>VII<br>3:10-4:00</b>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Monday</b></td>
+                <td align="center" height="50">CCV</td>
+                <td align="center" height="50">NT/3DP</td>
+                <td rowspan="6" align="center" height="50">
+                    <h2>B<br>R<br>E<br>A<br>K</h2>
+                </td>
+                <td align="center" height="50">BDA</td>                    
+                <td align="center" height="50">IS</td>
+                <td rowspan="6" align="center" height="50">
+                    <h2>L<br>U<br>N<br>C<br>H</h2>
+                    <td colspan="2" align="center" height="50">DWAD/CCV LAB</td>
+                    <td align="center" height="50">MP</td>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Tuesday</b>
+                </td>
+                <td colspan="2" align="center"height="50">CCV/DWAD LAB</td>
+                <td align="center" height="50">IS</td>
+                <td align="center" height="50">CCV</td>
+                <td colspan="2" align="center" height="50">PR</td>
+                <td align="center" height="50">CV/STM</td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Wednesday</b>
+                </td>
+                <td align="center" height="50">NT/3DP</td>
+                <td align="center" height="50">EITK</td>
+                <td align="center" height="50">BDA</td>
+                <td align="center" height="50">CV/STM</td>
+                <td colspan="2" align="center"
+                    height="50">IS/BDA LAB
+                </td>
+                <td align="center" height="50">CCV</td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Thursday</b>
+                </td>
+                <td colspan="2" align="center" height="50">BDA/IS LAB</td>
+                <td align="center" height="50">CV/STM</td>
+                <td align="center" height="50">EITK</td>
+                <td colspan="1" align="center"
+                    height="50">NT/3DP
+                </td>
+                <td align="center" height="50">IS</td>
+                <td align="center" height="50">BDA</td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Friday</b>
+                </td>
+                <td colspan="2" align="center"height="50">DWAD/CCV LAB</td>
+                <td align="center" height="50">CV/STM</td>
+                <td align="center" height="50">LIB</td>
+                <td colspan="2" align="center" height="50">SELF LEARNING</td>
+                <td align="center" height="50">SPORTS</td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Saturday</b>
+                </td>
+                <td colspan="2" align="center" height="50">IS/BDA LAB</td>
+                <td align="center" height="50">MP</td>
+                <td align="center" height="50">MENTORING</td>
+                <td colspan="2" align="center"
+                    height="50">MP</td>
+                <td align="center" height="50">ECA/CCA</td>
+            </tr>
+        </table>
+
+
+        <br><br><br><br><br><br><br>-->
+
+
+
+        <center><h1>TIME TABLE IT-B 4TH YEAR</h1></center>
+        <br>
+        <center>
+        <img src="images/41.webp" width="50%" height="40%" class="responsive">
+        </center>
+        
+        <!--<table border="5" cellspacing="1" align="center">
+            <caption>Timetable</caption>
+            <tr>
+                <td align="center" height="50"
+                    width="100"><br>
+                    <b>Day/Period</b></br>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>I<br>9:10-10:00</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>II<br>10:00-10:50</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b><br>10:50-11:00</b>
+                <td align="center" height="50"
+                    width="100">
+                    <b>III<br>11:00-11:50</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>IV<br>11:50-12:40</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b><br>12:40-1:30</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>V<br>1:30-2:20</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>VI<br>2:20-3:10</b>
+                </td>
+                <td align="center" height="50"
+                    width="100">
+                    <b>VII<br>3:10-4:00</b>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Monday</b></td>
+                <td align="center" height="50">BDA</td>
+                <td align="center" height="50">NT/3DP</td>
+                <td rowspan="6" align="center" height="50">
+                    <h2>B<br>R<br>E<br>A<br>K</h2>
+                </td>
+                <td align="center" height="50">IS</td>                    
+                <td align="center" height="50">CCV</td>
+                <td rowspan="6" align="center" height="50">
+                    <h2>L<br>U<br>N<br>C<br>H</h2>
+                    <td colspan="2" align="center" height="50">IS/BDA LAB</td>
+                    <td align="center" height="50">MP</td>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Tuesday</b>
+                </td>
+                <td colspan="1" align="center"height="50">IS</td>
+                <td align="center" height="50">BDA</td>
+                <td colspan="2" align="center" height="50">BDA/IS LAB</td>
+                <td align="center" height="50">EITK</td>
+                <td align="center" height="50">CCV</td>
+                <td align="center" height="50">CV/STM</td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Wednesday</b>
+                </td>
+                <td align="center" height="50">NT/3DP</td>
+                <td align="center" height="50">PR</td>
+                <td align="center" height="50">PR</td>
+                <td align="center" height="50">CV/STM</td>
+                <td colspan="2" align="center"
+                    height="50">DWAD/CCV LAB
+                </td>
+                <td align="center" height="50">EITK</td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Thursday</b>
+                </td>
+                <td colspan="2" align="center" height="50">CCV/DWAD LAB</td>
+                <td align="center" height="50">CV/STM</td>
+                <td align="center" height="50">BDA</td>
+                <td colspan="1" align="center"
+                    height="50">NT/3DP
+                </td>
+                <td colspan="1" align="center" height="50">IS</td>
+                <td colspan="1" align="center" height="50">CCV</td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Friday</b>
+                </td>
+                <td colspan="2" align="center"height="50">DWAD/CCV LAB</td>
+                <td align="center" height="50">CV/STM</td>
+                <td align="center" height="50">LIB</td>
+                <td colspan="2" align="center" height="50">SELF LEARNING</td>
+                <td align="center" height="50">SPORTS</td>
+            </tr>
+            <tr>
+                <td align="center" height="50">
+                    <b>Saturday</b>
+                </td>
+                <td colspan="2" align="center" height="50">IS/BDA LAB</td>
+                <td align="center" height="50">MP</td>
+                <td align="center" height="50">MENTORING</td>
+                <td colspan="2" align="center"
+                    height="50">MP
+                </td>
+                <td align="center" height="50">ECA/CCA</td>
+            </tr>
+        </table>
+        <br><br><br><br><br><br><br>
+-->
+<style>
+
+table{
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: rgb(0, 0, 0);
+}
+
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+a,strong{
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+</style> 
+
+ <!-- font awesome style -->
+<link href="css/font-awesome.min.css" rel="stylesheet" />
+ <!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet" />
+<footer> <p>
+    <center><strong>Read Our Privacy Policy Here -></strong>
+    <a href="privacy_policy.html" style="color: rgb(47, 0, 255);"><u><strong>Privacy Policy</strong></u></a>
+  </p></center> </footer>
+</body>
+</html>
